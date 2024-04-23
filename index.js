@@ -59,6 +59,10 @@ app.get('/work-experience', (req, res) => {
     res.json(workExperience);
 });
 
+// Define route handler for root URL
+app.get('/', (req, res) => {
+  });
+
 app.listen(port, () => {
   console.log(`Web service listening at http://localhost:${3000}`);
 });
